@@ -39,7 +39,7 @@ simple_echo ".bashrc.d"
 
 BASHRC="$HOME/.bashrc"
 
-\rm -r "$HOME/.bashrc.d"
+\rm -rf -- "$HOME/.bashrc.d"
 \mkdir -p "$HOME/.bashrc.d"
 
 BLOCK='
