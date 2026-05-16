@@ -52,7 +52,7 @@ if ! grep -q '\.bashrc\.d' "$BASHRC"; then
     printf '\n%s\n' "$BLOCK" >> "$BASHRC"
     simple_echo "~/.bashrc.d processing added to $BASHRC"
 else
-    grecsimple_echoho "~/.bashrc.d processing is already configured in $BASHRC"
+    simple_echo "~/.bashrc.d processing is already configured in $BASHRC"
 fi
 
 simple_echo "Initializing environment"
