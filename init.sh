@@ -38,7 +38,9 @@ head_echo "### Configuring environment"
 simple_echo ".bashrc.d"
 
 BASHRC="$HOME/.bashrc"
-mkdir -p "$HOME/.bashrc.d"
+
+\rm -r "$HOME/.bashrc.d"
+\mkdir -p "$HOME/.bashrc.d"
 
 BLOCK='
 if [[ -d "$HOME/.bashrc.d" ]]; then
