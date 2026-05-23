@@ -68,4 +68,3 @@ else
 fi
 
 head_echo "Init completed!"
-head_echo "Need Reload session"
