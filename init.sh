@@ -59,7 +59,7 @@ fi
 
 simple_echo "Initializing environment"
 
-ARCHIVE="$HOME/archive.tar.gz"
+ARCHIVE="$HOME/user-settings-archive.tar.gz"
 
 if [[ -f "$ARCHIVE" ]]; then
     tar -xzvf "$ARCHIVE"
